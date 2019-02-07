@@ -1,19 +1,19 @@
 
-// class TabLink {
+class TabLink {
 //     // constructor
-//   constructor(element) {
+  constructor(element) {
 
 //     // *** Assign this.element to the passed in DOM element
-//     // this.element;
-//     this.element = document.querySelector(
-//       `.content[data-tab = '${link.dataset.tab}']`
-//     );
+    // this.element;
+    this.element = document.querySelector(
+      `.content[data-tab = '${link.dataset.tab}']`
+    );
 
 //     // *** Get the custom data attribute on the Link
 //     // this.data;
-//        this.data = document.querySelector(
-//         `.content[data-tab = '${link.dataset.tab}']`
-//       );
+       this.data = document.querySelector(
+        `.content[data-tab = '${link.dataset.tab}']`
+      );
     
 //     // *** Using the custom data attribute get the associated Item element
 //     // this.itemElement;
@@ -22,25 +22,25 @@
 
 //     // *** Using the Item element, create a new instance of the TabItem class
 //     // *** this.tabItem;
-//     this.tabItem = new Content(this.tabContent);
+    this.tabItem = new Content(this.tabContent);
 
     
-//     // *** Add a click event listener on this instance, calling the select method on click
-//     element.addEventListener('click', () => this.linkClick() );
-//   };
+    // *** Add a click event listener on this instance, calling the select method on click
+    element.addEventListener('click', () => this.linkClick() );
+  };
 
 
 //     // *** Get all of the elements with the tabs-link class
 //     // *** const links;
-//     select() {
-//       this.itemElement.toggleContent();
-//     }
-//   }
+    select() {
+      this.itemElement.toggleContent();
+    }
+  }
 
 //     // *** Using a loop or the forEach method remove the 'tabs-link-selected' class from all of the links
 //     // ***Array.from(links).forEach();
-//     // Array.from(links).forEach() => new TabLink(link));
-//     // links.forEach( link => new TabLink(link));
+    Array.from(links).forEach() => new TabLink(link);
+    links.forEach( link => new TabLink(link));
 
 //     // *** Add a class named "tabs-link-selected" to this link
 //     // *** this.element;
@@ -48,15 +48,15 @@
 //     // *** Call the select method on the item associated with this link
 
 
-// class TabItem {
-//   constructor(element) {
+class TabItem {
+  constructor(element) {
 //     // *** Assign this.element to the passed in element
 //     // *** this.element;
-//     this.element = TabItem;
+    this.element = TabItem;
 
-//   }
+  }
 
-//   select() {
+  select() {
 //     // *** Select all ".tabs-item" elements from the DOM
 //     // *** const items;
 
@@ -64,8 +64,8 @@
     
 //     // *** Add a class named "tabs-item-selected" to this element
 //     //*** this.element;
-//   }
-// }
+  }
+}
 
 /* START HERE: 
 

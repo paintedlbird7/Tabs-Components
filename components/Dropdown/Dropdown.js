@@ -10,15 +10,15 @@ class Dropdown {
     
 
     // [x] assign the reference to the ".dropdown-content" class found in the dropdown element
-    this.content.innerText = ".dropdown-content";
+    // this.content.querySelector = ".dropdown-content";
+    this.content = this.element.querySelector('.dropdown-content');
 
     
     // [x] Add a click handler to the button reference and call the toggleContent method.
+    // this.button.addEventListener('click', () => 
+    // {this.toggleContent()
     this.button.addEventListener('click', () => 
-    {this.expandDropdown()
-    // this.expandButton.addEventListener("click", () => {this.expandArticle()});
-
-      // Dropdown();
+    { this.toggleContent() 
     })
   }
 
